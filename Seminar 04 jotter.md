@@ -30,7 +30,7 @@ Step 1: create the plot with the hist command
 Step 2: create the image with command dev.copy(filetype, 'filename')- you must specify the file type you want to create and give it a filename in single quotes.
 
 Step 3: export the image with command dev.off()- you don't have to specify anything; it will be working with the last image that you created. 
-**screen shot 1**
+![screen shot 1](https://github.com/slu-data-science-seminar/spring-2016-seminar-04/blob/master/Screen%20Shot%201.png)
 
 
 Next we'll confirm that we're working with numeric data: command is.numeric(df$speed).
