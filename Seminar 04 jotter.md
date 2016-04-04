@@ -15,7 +15,7 @@ For our examples today we'll load the "cars" sample data set. To do this:
 -Use the command df <- cars to load the data set into a dataframe "cars". The data should appear in your environment window.
 -Use the command str(cars) to generate a list of all variables in the data set in your console.
 You should now have the following in your console:
-**screen shot 0**
+![screen shot 0](https://github.com/slu-data-science-seminar/spring-2016-seminar-04/blob/master/Screen%20Shot%200.png)
 
 ##### Review: Working with a data set, commands for descriptive statistics
 Use the following commands to run descriptive stats on your data set (include the dollar sign followed by the name of the variable you want to examine):
