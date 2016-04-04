@@ -53,7 +53,7 @@ Next we'll make a new Speed ordinal variable "speedOrdinal2" with the breaks in 
 We can also put labels on the levels of our ordinal variable by adding the labels=c() command
 We'll create a new variable "speedOrdinal3" with labels 
 -ex: df$speedOrdinal3<-cut(df$speed, breaks=5, labels=c("vlow","low","mid","high","vhigh")) 
-![screen shot 5]{https://github.com/slu-data-science-seminar/spring-2016-seminar-04/blob/master/Screen%20Shot%205.png)
+![screen shot 5](https://github.com/slu-data-science-seminar/spring-2016-seminar-04/blob/master/Screen%20Shot%205.png)
 
 ###### Notes on commands used in recoding data
 
