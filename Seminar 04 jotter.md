@@ -42,7 +42,7 @@ Let's change "speed" to an ordinal factor.
 -Use the command df$speedOrdinal<-cut() (in the parenthesis you need to specify the old object, number of breaks)
 -ex: df$speedOrdinal<-cut(df$speed,breaks=5)- we will let R Studio decide where to place the breaks.
 This command will generate a new ordinal variable in the environment. 
-**screen shot 2**
+![screen shot 2](https://github.com/slu-data-science-seminar/spring-2016-seminar-04/blob/master/Screen%20Shot%202.png)
 
 You can find out the levels that were assigned by using the summary() command.
 -ex: summary(df$speedOrdinal) 
