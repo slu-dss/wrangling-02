@@ -1,4 +1,4 @@
-# wrangling-01 Setup
+# wrangling-02 Setup
 The following packages are required for this lesson. Base `R` packages are not included here since they are pre-installed.
 
 ## First Steps
@@ -14,6 +14,7 @@ The `README` provides simplified syntax for installing all of these packages.
 
 * `dplyr` - tools for data wrangling
 * `readr` - tools for reading flat files, including `.csv` files
+* `stringr` - tools for working with strings
 
 ### Literate Programming
 *These will not be referred to directly during the session but are needed for the notebook to work correctly.*
@@ -24,4 +25,3 @@ The `README` provides simplified syntax for installing all of these packages.
 ### Other packages
 
 * `here` - file path management
-* `janitor` - data cleaning tools

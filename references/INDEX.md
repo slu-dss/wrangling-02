@@ -1,11 +1,9 @@
-# wrangling-01 Index
+# wrangling-02 Index
 
 ## Key Topics
 
-* Installing packages
-* Importing `.csv` data (brief review)
-* Renaming variables with `janitor` and `dplyr`
-* Sub-setting and reordering variables
+* Creating new variables with `mutate`
+* Splitting strings with `stringr`
 * Creating pipelines
 
 ## Key Tools
@@ -13,8 +11,8 @@
 
 * `dplyr`
 * `here`
-* `janitor`
 * `readr`
+* `stringr`
 * `utils`
 
 ### Tools
