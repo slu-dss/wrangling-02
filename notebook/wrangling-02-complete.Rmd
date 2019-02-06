@@ -1,0 +1,209 @@
+---
+title: "Data Wrangling in R, Lesson 2"
+author: "Christy Garcia, Ph.D. and Christopher Prener, Ph.D."
+date: '(`r format(Sys.time(), "%B %d, %Y")`)'
+output:
+  github_document: default
+  html_notebook: default
+---
+
+## Introduction
+This is the notebook for the second data wrangling lesson. Today, we'll be covering how to create and manipulate varaibles, using various functions in the `dplyr` package. 
+
+## Dependencies
+This notebook requires three packages from the `tidyverse` as well as one additional package:
+
+```{r load-packages}
+# tidyverse packages
+library(dplyr)     # data wrangling
+library(readr)     # read and write csv files
+library(stringr)   # manipulating string data 
+
+# manage file paths
+library(here)      # manage file paths
+```
+
+## Read in Data
+Last time we reviewed how to read `.csv` files into `R`. Today we'll use the cleaner versions of the same two files, which are in the `data/` subdirectory of our project:
+
+1. `mpg.csv` - the `mpg` data from `ggplot2` 
+2. `starwars.csv` - the `starwars` data from `dplyr`
+
+To read `.csv` files into `R`, we'll use the `readr` package's `read_csv()` function. 
+
+```{r read-mpg}
+mpg <- read_csv(here("data", "mpg.csv"))
+```
+
+Now, review the `read_csv()` syntax to import the `starwars.csv` data from the same source:
+
+```{r read-starwars}
+starwars <- read_csv(here("data", "starwars.csv"))
+```
+
+*Note: We could also call these dataframes directly instead of importing them since they are available within R packages, but we wanted you to practice reading in!
+
+
+## Quickly Exploring Data
+Remember to quickly explore data, we can use `utils::str()`:
+
+```{r explore}
+str(mpg)
+str(starwars)
+```
+
+Last time we identified and fixed several issues in these datasets. Today we are going to use the already clean datasets to look at creating new variables, combining variables, and other such mutations. 
+
+
+## Creating new variables
+### With `mutate`
+One of the basic functions of the `dplyr` package is `mutate`. It is essentially used just to create new variables. When using this function, we have to specify three things: 
+
+1. the name of the dataframe to be modified
+2. the name of the new variable that you want to create
+3. the value you'd like to assign to this new variable 
+
+So let's say we wanted to make a new variable in the `mpg` dataframe that reflects the age of the cars instead of which year they were made. 
+
+```{r mutate-mpg}
+mpg_new <- mutate(mpg, age = 2019-year) 
+```
+
+Another thing we might want to do is average the city and highway MPG rates for each vehicle. 
+
+```{r mutate-mpg-2}
+mpg_new <- mutate(mpg, avg = (cty+hwy)/2) 
+```
+
+NOTE: The `mutate` function does not automatically change the input dataframe, so that is why we have to use the assignment operator to either save the change to a new dataframe or the exisiting one. 
+
+Remember we can also do both of these steps in one by using a *pipeline*. 
+
+```{r mutate-mpg-3}
+mpg %>%
+  mutate(
+    age = 2019-year,
+    avg = (cty/hwy)/2
+  ) -> mpg_new
+```
+
+This reads as:
+
+1. First, we take the `mpg` data, *then*
+2. we make a new variable called `age`, *then*
+3. we make another new varialbe called `avg`, *then*
+4. we save the output to `mpg_new`.
+
+Now try making some new variables in the `starwars` dataframe using the `mutate` function.
+(For example, converting the height variable to inches from cm.)
+
+```{r mutate-starwars}
+starwars_new <- mutate(starwars, inches = height*0.39) 
+```
+
+### With `mutate` and `case_when` 
+Another function, `case_when` can be helpful when imbedded in `mutate` in order to recode an existing variable, creating a new varaible with different values. 
+
+```{r case_when-mpg}
+mpg_new %>%
+  mutate(
+    highEfficiency = case_when(
+      hwy > 23 ~ TRUE,
+      hwy <  23 ~  FALSE
+    )
+  ) -> mpg_new
+```
+
+You may have noticed that this leaves out vehicles which have a highway mpg of exactly 23. We can fix this by including an equal sign (<=), to mean 'less than or equal to':
+
+```{r case_when-mpg-2}
+mpg_new %>%
+  mutate(
+    highEfficiency = case_when(
+      hwy > 23 ~ TRUE,
+      hwy <=  23 ~  FALSE
+    )
+  ) -> mpg_new
+```
+
+We can also use `case_when` to recode character variables. 
+
+```{r case_when-mpg-3}
+mpg_new %>%
+  mutate(
+    origin = case_when(
+      manufacturer %in% c("dodge", "chevrolet", "ford", "jeep", "lincoln", "mercury", "pontiac") ~ "domestic",
+      manufacturer %in% c("audi", "hyundai", "honda", "land rover", "nissan", "subaru", "toyota", "volkswagen") ~  "foreign"
+    )
+  ) -> mpg_new
+```
+
+Now try recoding one numeric and one character variable in the `starwars` dataset using the `mutate` and `case_when` functions. 
+(For example, if you wanted to create a variable of which characters are tall or categorize their eye colors.)
+
+```{r case_when-starwars}
+starwars_new %>%
+  mutate(
+    tall = case_when(
+      height > 174 ~ TRUE,
+      height <=  174 ~  FALSE
+    )
+  ) -> starwars_new
+
+starwars_new %>%
+  mutate(
+    eye_category = case_when(
+      eye_color %in% c("blue", "blue-gray", "green, yellow", "hazel", "orange", "white", "yellow", "gold", "pink", "red", "red, blue") ~ "light",
+      eye_color %in% c("black", "brown", "dark") ~  "dark"
+    )
+  ) -> starwars_new
+```
+
+### Adding column ID with `mutate` 
+You'll notice that neither one of our dataframes has a column for row IDs (although `starwars` does have character names). We can easily add this with the `mutate` function. 
+
+```{r column_ID-mpg}
+mpg_new <- mutate(mpg_new, id = rownames(mpg_new))
+```
+
+Repeat the above for the `starwars` dataframe:
+
+```{r column_ID-starwars}
+starwars_new <- mutate(starwars_new, id = rownames(starwars_new))
+```
+
+### Splitting a variable with `str_split` 
+
+If you have a character variable that is made up of multiple strings, you can split it by using the function `str_split` in the `stingr` package. For this to work, the strings within a variable must be separated by the same thing (space, comma, slash, etc.). 
+
+Within `str_split()`, we must first specify the variable that we would like to split (`name`) and then tell R how to split this column. In this case, the strings are separated by spaces, so we just put a space in the parantheses that follow. At the end of the function, we specify which string (in this case the first one) we would like to single out. 
+
+```{r str_split-starwars}
+starwars_new %>%
+  mutate(first = str_split(name, " ", simplify = TRUE)[, 1]
+   ) -> starwars_new
+```
+
+Now repeat the use of `str_split` to make a new variable which is the second name of each Star Wars character (if they have one). 
+
+```{r str_split-starwars-2}
+starwars_new %>%
+  mutate(second = str_split(name, " ", simplify = TRUE)[, 2]
+   ) -> starwars_new
+```
+
+
+## Write Data
+
+We have made several modifications to our dataframes, and while not strictly necessary, we might want to save these changes to a .csv to be able to access them outside of R. We use the `write_csv` function from `readr` to do this:
+
+```{r write_csv-mpg}
+write_csv(mpg_new, here("data", "mpg_new.csv"))
+```
+
+Now export the `starwars_new` dataframe to the "data" folder:
+
+```{r write_csv-starwars}
+write_csv(starwars_new, here("data", "starwars_new.csv"))
+```
+
