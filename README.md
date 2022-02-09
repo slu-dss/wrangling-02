@@ -3,8 +3,6 @@
 [![](https://img.shields.io/badge/lesson%20status-stable-brightgreen.svg)](https://github.com/slu-dss/wrangling-02/)
 [![](https://img.shields.io/github/release/slu-dss/wrangling-02.svg?label=version)](https://github.com/slu-dss/wrangling-02/releases)
 [![](https://img.shields.io/github/last-commit/slu-dss/wrangling-02.svg)](https://github.com/slu-dss/wrangling-02/commits/master)
-[![Travis-CI Build Status](https://travis-ci.org/slu-dss/wrangling-02.svg?branch=master)](https://travis-ci.org/slu-dss/wrangling-02)
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/slu-dss/wrangling-02?branch=master&svg=true)](https://ci.appveyor.com/project/chris-prener/wrangling-02)
 
 ## Lesson Overview
 This repository contains the second lesson for the Data Wrangling in R seminar. This lesson covers the basics of using `dplyr` to modify existing variables and create new ones.

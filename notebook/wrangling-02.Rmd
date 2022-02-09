@@ -8,7 +8,7 @@ output:
 ---
 
 ## Introduction
-This is the notebook for the second data wrangling lesson. Today, we'll be covering how to create and manipulate varaibles, using various functions in the `dplyr` package. 
+This is the notebook for the second data wrangling lesson. Today, we'll be covering how to create and manipulate variables, using various functions in the `dplyr` package. 
 
 ## Dependencies
 This notebook requires three packages from the `tidyverse` as well as one additional package:
@@ -41,7 +41,7 @@ Now, review the `read_csv()` syntax to import the `starwars.csv` data from the s
 
 ```
 
-*Note: We could also call these dataframes directly instead of importing them since they are available within R packages, but we wanted you to practice reading in!
+*Note: We could also call these data frames directly instead of importing them since they are available within R packages, but we wanted you to practice reading in!
 
 
 ## Quickly Exploring Data
@@ -52,21 +52,21 @@ str(mpg)
 str(starwars)
 ```
 
-Last time we identified and fixed several issues in these datasets. Today we are going to use the already clean datasets to look at creating new variables, combining variables, and other such mutations. 
+Last time we identified and fixed several issues in these data sets. Today we are going to use the already clean data sets to look at creating new variables, combining variables, and other such mutations. 
 
 
 ## Creating new variables
 ### With `mutate`
 One of the basic functions of the `dplyr` package is `mutate`. It is essentially used just to create new variables. When using this function, we have to specify three things: 
 
-1. the name of the dataframe to be modified
+1. the name of the data frame to be modified
 2. the name of the new variable that you want to create
 3. the value you'd like to assign to this new variable 
 
-So let's say we wanted to make a new variable in the `mpg` dataframe that reflects the age of the cars instead of which year they were made. 
+So let's say we wanted to make a new variable in the `mpg` data frame that reflects the age of the cars instead of which year they were made. 
 
 ```{r mutate-mpg}
-mpg_new <- mutate(mpg, age = 2019-year) 
+mpg_new <- mutate(mpg, age = 2021-year) 
 ```
 
 Another thing we might want to do is average the city and highway MPG rates for each vehicle. 
@@ -75,7 +75,7 @@ Another thing we might want to do is average the city and highway MPG rates for 
 mpg_new <- mutate(mpg, avg = (cty+hwy)/2) 
 ```
 
-NOTE: The `mutate` function does not automatically change the input dataframe, so that is why we have to use the assignment operator to either save the change to a new dataframe or the exisiting one. 
+NOTE: The `mutate` function does not automatically change the input data frame, so that is why we have to use the assignment operator to either save the change to a new data frame or the existing one. 
 
 Remember we can also do both of these steps in one by using a *pipeline*. 
 
@@ -91,17 +91,17 @@ This reads as:
 
 1. First, we take the `mpg` data, *then*
 2. we make a new variable called `age`, *then*
-3. we make another new varialbe called `avg`, *then*
+3. we make another new variable called `avg`, *then*
 4. we save the output to `mpg_new`.
 
-Now try making some new variables in the `starwars` dataframe using the `mutate` function. 
+Now try making some new variables in the `starwars` data frame using the `mutate` function. 
 
 ```{r mutate-starwars}
 
 ```
 
 ### With `mutate` and `case_when` 
-Another function, `case_when` can be helpful when imbedded in `mutate` in order to recode an existing variable, creating a new varaible with different values. 
+Another function, `case_when` can be helpful when embedded in `mutate` in order to recode an existing variable, creating a new variable with different values. 
 
 ```{r case_when-mpg}
 mpg_new %>%
@@ -137,20 +137,20 @@ mpg_new %>%
   ) -> mpg_new
 ```
 
-Now try recoding one numeric and one character variable in the `starwars` dataset using the `mutate` and `case_when` functions. 
+Now try recoding one numeric and one character variable in the `starwars` data set using the `mutate` and `case_when` functions. 
 
 ```{r case_when-starwars}
 
 ```
 
 ### Adding column ID with `mutate` 
-You'll notice that neither one of our dataframes has a column for row IDs (although `starwars` does have character names). We can easily add this with the `mutate` function. 
+You'll notice that neither one of our data frames has a column for row IDs (although `starwars` does have character names). We can easily add this with the `mutate` function. 
 
 ```{r column_ID-mpg}
 mpg_new <- mutate(mpg_new, id = rownames(mpg_new))
 ```
 
-Repeat the above for the `starwars` dataframe:
+Repeat the above for the `starwars` data frame:
 
 ```{r column_ID-starwars}
 
@@ -160,7 +160,7 @@ Repeat the above for the `starwars` dataframe:
 
 If you have a character variable that is made up of multiple strings, you can split it by using the function `str_split` in the `stingr` package. For this to work, the strings within a variable must be separated by the same thing (space, comma, slash, etc.). 
 
-Within `str_split()`, we must first specify the variable that we would like to split (`name`) and then tell R how to split this column. In this case, the strings are separated by spaces, so we just put a space in the parantheses that follow. At the end of the function, we specify which string (in this case the first one) we would like to single out. 
+Within `str_split()`, we must first specify the variable that we would like to split (`name`) and then tell R how to split this column. In this case, the strings are separated by spaces, so we just put a space in the parentheses that follow. At the end of the function, we specify which string (in this case the first one) we would like to single out. 
 
 ```{r str_split-starwars}
 starwars_new %>%
@@ -177,13 +177,13 @@ Now repeat the use of `str_split` to make a new variable which is the second nam
 
 ## Write Data
 
-We have made several modifications to our dataframes, and while not strictly necessary, we might want to save these changes to a .csv to be able to access them outside of R. We use the `write_csv` function from `readr` to do this:
+We have made several modifications to our data frames, and while not strictly necessary, we might want to save these changes to a .csv to be able to access them outside of R. We use the `write_csv` function from `readr` to do this:
 
 ```{r write_csv-mpg}
 write_csv(mpg_new, here("data", "mpg_new.csv"))
 ```
 
-Now export the `starwars_new` dataframe to the "data" folder:
+Now export the `starwars_new` data frame to the "data" folder:
 
 ```{r write_csv-starwars}
 
