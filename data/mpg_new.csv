@@ -1,235 +1,235 @@
 manufacturer,model,displ,year,cyl,trans,drv,cty,hwy,fl,class,age,avg,highEfficiency,origin,id
-audi,a4,1.8,1999,4,auto(l5),f,18,29,p,compact,20,0.3103448275862069,TRUE,foreign,1
-audi,a4,1.8,1999,4,manual(m5),f,21,29,p,compact,20,0.3620689655172414,TRUE,foreign,2
-audi,a4,2,2008,4,manual(m6),f,20,31,p,compact,11,0.3225806451612903,TRUE,foreign,3
-audi,a4,2,2008,4,auto(av),f,21,30,p,compact,11,0.35,TRUE,foreign,4
-audi,a4,2.8,1999,6,auto(l5),f,16,26,p,compact,20,0.3076923076923077,TRUE,foreign,5
-audi,a4,2.8,1999,6,manual(m5),f,18,26,p,compact,20,0.34615384615384615,TRUE,foreign,6
-audi,a4,3.1,2008,6,auto(av),f,18,27,p,compact,11,0.3333333333333333,TRUE,foreign,7
-audi,a4 quattro,1.8,1999,4,manual(m5),4,18,26,p,compact,20,0.34615384615384615,TRUE,foreign,8
-audi,a4 quattro,1.8,1999,4,auto(l5),4,16,25,p,compact,20,0.32,TRUE,foreign,9
-audi,a4 quattro,2,2008,4,manual(m6),4,20,28,p,compact,11,0.35714285714285715,TRUE,foreign,10
-audi,a4 quattro,2,2008,4,auto(s6),4,19,27,p,compact,11,0.35185185185185186,TRUE,foreign,11
-audi,a4 quattro,2.8,1999,6,auto(l5),4,15,25,p,compact,20,0.3,TRUE,foreign,12
-audi,a4 quattro,2.8,1999,6,manual(m5),4,17,25,p,compact,20,0.34,TRUE,foreign,13
-audi,a4 quattro,3.1,2008,6,auto(s6),4,17,25,p,compact,11,0.34,TRUE,foreign,14
-audi,a4 quattro,3.1,2008,6,manual(m6),4,15,25,p,compact,11,0.3,TRUE,foreign,15
-audi,a6 quattro,2.8,1999,6,auto(l5),4,15,24,p,midsize,20,0.3125,TRUE,foreign,16
-audi,a6 quattro,3.1,2008,6,auto(s6),4,17,25,p,midsize,11,0.34,TRUE,foreign,17
-audi,a6 quattro,4.2,2008,8,auto(s6),4,16,23,p,midsize,11,0.34782608695652173,FALSE,foreign,18
-chevrolet,c1500 suburban 2wd,5.3,2008,8,auto(l4),r,14,20,r,suv,11,0.35,FALSE,domestic,19
-chevrolet,c1500 suburban 2wd,5.3,2008,8,auto(l4),r,11,15,e,suv,11,0.36666666666666664,FALSE,domestic,20
-chevrolet,c1500 suburban 2wd,5.3,2008,8,auto(l4),r,14,20,r,suv,11,0.35,FALSE,domestic,21
-chevrolet,c1500 suburban 2wd,5.7,1999,8,auto(l4),r,13,17,r,suv,20,0.38235294117647056,FALSE,domestic,22
-chevrolet,c1500 suburban 2wd,6,2008,8,auto(l4),r,12,17,r,suv,11,0.35294117647058826,FALSE,domestic,23
-chevrolet,corvette,5.7,1999,8,manual(m6),r,16,26,p,2seater,20,0.3076923076923077,TRUE,domestic,24
-chevrolet,corvette,5.7,1999,8,auto(l4),r,15,23,p,2seater,20,0.32608695652173914,FALSE,domestic,25
-chevrolet,corvette,6.2,2008,8,manual(m6),r,16,26,p,2seater,11,0.3076923076923077,TRUE,domestic,26
-chevrolet,corvette,6.2,2008,8,auto(s6),r,15,25,p,2seater,11,0.3,TRUE,domestic,27
-chevrolet,corvette,7,2008,8,manual(m6),r,15,24,p,2seater,11,0.3125,TRUE,domestic,28
-chevrolet,k1500 tahoe 4wd,5.3,2008,8,auto(l4),4,14,19,r,suv,11,0.3684210526315789,FALSE,domestic,29
-chevrolet,k1500 tahoe 4wd,5.3,2008,8,auto(l4),4,11,14,e,suv,11,0.39285714285714285,FALSE,domestic,30
-chevrolet,k1500 tahoe 4wd,5.7,1999,8,auto(l4),4,11,15,r,suv,20,0.36666666666666664,FALSE,domestic,31
-chevrolet,k1500 tahoe 4wd,6.5,1999,8,auto(l4),4,14,17,d,suv,20,0.4117647058823529,FALSE,domestic,32
-chevrolet,malibu,2.4,1999,4,auto(l4),f,19,27,r,midsize,20,0.35185185185185186,TRUE,domestic,33
-chevrolet,malibu,2.4,2008,4,auto(l4),f,22,30,r,midsize,11,0.36666666666666664,TRUE,domestic,34
-chevrolet,malibu,3.1,1999,6,auto(l4),f,18,26,r,midsize,20,0.34615384615384615,TRUE,domestic,35
-chevrolet,malibu,3.5,2008,6,auto(l4),f,18,29,r,midsize,11,0.3103448275862069,TRUE,domestic,36
-chevrolet,malibu,3.6,2008,6,auto(s6),f,17,26,r,midsize,11,0.3269230769230769,TRUE,domestic,37
-dodge,caravan 2wd,2.4,1999,4,auto(l3),f,18,24,r,minivan,20,0.375,TRUE,domestic,38
-dodge,caravan 2wd,3,1999,6,auto(l4),f,17,24,r,minivan,20,0.3541666666666667,TRUE,domestic,39
-dodge,caravan 2wd,3.3,1999,6,auto(l4),f,16,22,r,minivan,20,0.36363636363636365,FALSE,domestic,40
-dodge,caravan 2wd,3.3,1999,6,auto(l4),f,16,22,r,minivan,20,0.36363636363636365,FALSE,domestic,41
-dodge,caravan 2wd,3.3,2008,6,auto(l4),f,17,24,r,minivan,11,0.3541666666666667,TRUE,domestic,42
-dodge,caravan 2wd,3.3,2008,6,auto(l4),f,17,24,r,minivan,11,0.3541666666666667,TRUE,domestic,43
-dodge,caravan 2wd,3.3,2008,6,auto(l4),f,11,17,e,minivan,11,0.3235294117647059,FALSE,domestic,44
-dodge,caravan 2wd,3.8,1999,6,auto(l4),f,15,22,r,minivan,20,0.3409090909090909,FALSE,domestic,45
-dodge,caravan 2wd,3.8,1999,6,auto(l4),f,15,21,r,minivan,20,0.35714285714285715,FALSE,domestic,46
-dodge,caravan 2wd,3.8,2008,6,auto(l6),f,16,23,r,minivan,11,0.34782608695652173,FALSE,domestic,47
-dodge,caravan 2wd,4,2008,6,auto(l6),f,16,23,r,minivan,11,0.34782608695652173,FALSE,domestic,48
-dodge,dakota pickup 4wd,3.7,2008,6,manual(m6),4,15,19,r,pickup,11,0.39473684210526316,FALSE,domestic,49
-dodge,dakota pickup 4wd,3.7,2008,6,auto(l4),4,14,18,r,pickup,11,0.3888888888888889,FALSE,domestic,50
-dodge,dakota pickup 4wd,3.9,1999,6,auto(l4),4,13,17,r,pickup,20,0.38235294117647056,FALSE,domestic,51
-dodge,dakota pickup 4wd,3.9,1999,6,manual(m5),4,14,17,r,pickup,20,0.4117647058823529,FALSE,domestic,52
-dodge,dakota pickup 4wd,4.7,2008,8,auto(l5),4,14,19,r,pickup,11,0.3684210526315789,FALSE,domestic,53
-dodge,dakota pickup 4wd,4.7,2008,8,auto(l5),4,14,19,r,pickup,11,0.3684210526315789,FALSE,domestic,54
-dodge,dakota pickup 4wd,4.7,2008,8,auto(l5),4,9,12,e,pickup,11,0.375,FALSE,domestic,55
-dodge,dakota pickup 4wd,5.2,1999,8,manual(m5),4,11,17,r,pickup,20,0.3235294117647059,FALSE,domestic,56
-dodge,dakota pickup 4wd,5.2,1999,8,auto(l4),4,11,15,r,pickup,20,0.36666666666666664,FALSE,domestic,57
-dodge,durango 4wd,3.9,1999,6,auto(l4),4,13,17,r,suv,20,0.38235294117647056,FALSE,domestic,58
-dodge,durango 4wd,4.7,2008,8,auto(l5),4,13,17,r,suv,11,0.38235294117647056,FALSE,domestic,59
-dodge,durango 4wd,4.7,2008,8,auto(l5),4,9,12,e,suv,11,0.375,FALSE,domestic,60
-dodge,durango 4wd,4.7,2008,8,auto(l5),4,13,17,r,suv,11,0.38235294117647056,FALSE,domestic,61
-dodge,durango 4wd,5.2,1999,8,auto(l4),4,11,16,r,suv,20,0.34375,FALSE,domestic,62
-dodge,durango 4wd,5.7,2008,8,auto(l5),4,13,18,r,suv,11,0.3611111111111111,FALSE,domestic,63
-dodge,durango 4wd,5.9,1999,8,auto(l4),4,11,15,r,suv,20,0.36666666666666664,FALSE,domestic,64
-dodge,ram 1500 pickup 4wd,4.7,2008,8,manual(m6),4,12,16,r,pickup,11,0.375,FALSE,domestic,65
-dodge,ram 1500 pickup 4wd,4.7,2008,8,auto(l5),4,9,12,e,pickup,11,0.375,FALSE,domestic,66
-dodge,ram 1500 pickup 4wd,4.7,2008,8,auto(l5),4,13,17,r,pickup,11,0.38235294117647056,FALSE,domestic,67
-dodge,ram 1500 pickup 4wd,4.7,2008,8,auto(l5),4,13,17,r,pickup,11,0.38235294117647056,FALSE,domestic,68
-dodge,ram 1500 pickup 4wd,4.7,2008,8,manual(m6),4,12,16,r,pickup,11,0.375,FALSE,domestic,69
-dodge,ram 1500 pickup 4wd,4.7,2008,8,manual(m6),4,9,12,e,pickup,11,0.375,FALSE,domestic,70
-dodge,ram 1500 pickup 4wd,5.2,1999,8,auto(l4),4,11,15,r,pickup,20,0.36666666666666664,FALSE,domestic,71
-dodge,ram 1500 pickup 4wd,5.2,1999,8,manual(m5),4,11,16,r,pickup,20,0.34375,FALSE,domestic,72
-dodge,ram 1500 pickup 4wd,5.7,2008,8,auto(l5),4,13,17,r,pickup,11,0.38235294117647056,FALSE,domestic,73
-dodge,ram 1500 pickup 4wd,5.9,1999,8,auto(l4),4,11,15,r,pickup,20,0.36666666666666664,FALSE,domestic,74
-ford,expedition 2wd,4.6,1999,8,auto(l4),r,11,17,r,suv,20,0.3235294117647059,FALSE,domestic,75
-ford,expedition 2wd,5.4,1999,8,auto(l4),r,11,17,r,suv,20,0.3235294117647059,FALSE,domestic,76
-ford,expedition 2wd,5.4,2008,8,auto(l6),r,12,18,r,suv,11,0.3333333333333333,FALSE,domestic,77
-ford,explorer 4wd,4,1999,6,auto(l5),4,14,17,r,suv,20,0.4117647058823529,FALSE,domestic,78
-ford,explorer 4wd,4,1999,6,manual(m5),4,15,19,r,suv,20,0.39473684210526316,FALSE,domestic,79
-ford,explorer 4wd,4,1999,6,auto(l5),4,14,17,r,suv,20,0.4117647058823529,FALSE,domestic,80
-ford,explorer 4wd,4,2008,6,auto(l5),4,13,19,r,suv,11,0.34210526315789475,FALSE,domestic,81
-ford,explorer 4wd,4.6,2008,8,auto(l6),4,13,19,r,suv,11,0.34210526315789475,FALSE,domestic,82
-ford,explorer 4wd,5,1999,8,auto(l4),4,13,17,r,suv,20,0.38235294117647056,FALSE,domestic,83
-ford,f150 pickup 4wd,4.2,1999,6,auto(l4),4,14,17,r,pickup,20,0.4117647058823529,FALSE,domestic,84
-ford,f150 pickup 4wd,4.2,1999,6,manual(m5),4,14,17,r,pickup,20,0.4117647058823529,FALSE,domestic,85
-ford,f150 pickup 4wd,4.6,1999,8,manual(m5),4,13,16,r,pickup,20,0.40625,FALSE,domestic,86
-ford,f150 pickup 4wd,4.6,1999,8,auto(l4),4,13,16,r,pickup,20,0.40625,FALSE,domestic,87
-ford,f150 pickup 4wd,4.6,2008,8,auto(l4),4,13,17,r,pickup,11,0.38235294117647056,FALSE,domestic,88
-ford,f150 pickup 4wd,5.4,1999,8,auto(l4),4,11,15,r,pickup,20,0.36666666666666664,FALSE,domestic,89
-ford,f150 pickup 4wd,5.4,2008,8,auto(l4),4,13,17,r,pickup,11,0.38235294117647056,FALSE,domestic,90
-ford,mustang,3.8,1999,6,manual(m5),r,18,26,r,subcompact,20,0.34615384615384615,TRUE,domestic,91
-ford,mustang,3.8,1999,6,auto(l4),r,18,25,r,subcompact,20,0.36,TRUE,domestic,92
-ford,mustang,4,2008,6,manual(m5),r,17,26,r,subcompact,11,0.3269230769230769,TRUE,domestic,93
-ford,mustang,4,2008,6,auto(l5),r,16,24,r,subcompact,11,0.3333333333333333,TRUE,domestic,94
-ford,mustang,4.6,1999,8,auto(l4),r,15,21,r,subcompact,20,0.35714285714285715,FALSE,domestic,95
-ford,mustang,4.6,1999,8,manual(m5),r,15,22,r,subcompact,20,0.3409090909090909,FALSE,domestic,96
-ford,mustang,4.6,2008,8,manual(m5),r,15,23,r,subcompact,11,0.32608695652173914,FALSE,domestic,97
-ford,mustang,4.6,2008,8,auto(l5),r,15,22,r,subcompact,11,0.3409090909090909,FALSE,domestic,98
-ford,mustang,5.4,2008,8,manual(m6),r,14,20,p,subcompact,11,0.35,FALSE,domestic,99
-honda,civic,1.6,1999,4,manual(m5),f,28,33,r,subcompact,20,0.42424242424242425,TRUE,foreign,100
-honda,civic,1.6,1999,4,auto(l4),f,24,32,r,subcompact,20,0.375,TRUE,foreign,101
-honda,civic,1.6,1999,4,manual(m5),f,25,32,r,subcompact,20,0.390625,TRUE,foreign,102
-honda,civic,1.6,1999,4,manual(m5),f,23,29,p,subcompact,20,0.39655172413793105,TRUE,foreign,103
-honda,civic,1.6,1999,4,auto(l4),f,24,32,r,subcompact,20,0.375,TRUE,foreign,104
-honda,civic,1.8,2008,4,manual(m5),f,26,34,r,subcompact,11,0.38235294117647056,TRUE,foreign,105
-honda,civic,1.8,2008,4,auto(l5),f,25,36,r,subcompact,11,0.3472222222222222,TRUE,foreign,106
-honda,civic,1.8,2008,4,auto(l5),f,24,36,c,subcompact,11,0.3333333333333333,TRUE,foreign,107
-honda,civic,2,2008,4,manual(m6),f,21,29,p,subcompact,11,0.3620689655172414,TRUE,foreign,108
-hyundai,sonata,2.4,1999,4,auto(l4),f,18,26,r,midsize,20,0.34615384615384615,TRUE,foreign,109
-hyundai,sonata,2.4,1999,4,manual(m5),f,18,27,r,midsize,20,0.3333333333333333,TRUE,foreign,110
-hyundai,sonata,2.4,2008,4,auto(l4),f,21,30,r,midsize,11,0.35,TRUE,foreign,111
-hyundai,sonata,2.4,2008,4,manual(m5),f,21,31,r,midsize,11,0.3387096774193548,TRUE,foreign,112
-hyundai,sonata,2.5,1999,6,auto(l4),f,18,26,r,midsize,20,0.34615384615384615,TRUE,foreign,113
-hyundai,sonata,2.5,1999,6,manual(m5),f,18,26,r,midsize,20,0.34615384615384615,TRUE,foreign,114
-hyundai,sonata,3.3,2008,6,auto(l5),f,19,28,r,midsize,11,0.3392857142857143,TRUE,foreign,115
-hyundai,tiburon,2,1999,4,auto(l4),f,19,26,r,subcompact,20,0.36538461538461536,TRUE,foreign,116
-hyundai,tiburon,2,1999,4,manual(m5),f,19,29,r,subcompact,20,0.3275862068965517,TRUE,foreign,117
-hyundai,tiburon,2,2008,4,manual(m5),f,20,28,r,subcompact,11,0.35714285714285715,TRUE,foreign,118
-hyundai,tiburon,2,2008,4,auto(l4),f,20,27,r,subcompact,11,0.37037037037037035,TRUE,foreign,119
-hyundai,tiburon,2.7,2008,6,auto(l4),f,17,24,r,subcompact,11,0.3541666666666667,TRUE,foreign,120
-hyundai,tiburon,2.7,2008,6,manual(m6),f,16,24,r,subcompact,11,0.3333333333333333,TRUE,foreign,121
-hyundai,tiburon,2.7,2008,6,manual(m5),f,17,24,r,subcompact,11,0.3541666666666667,TRUE,foreign,122
-jeep,grand cherokee 4wd,3,2008,6,auto(l5),4,17,22,d,suv,11,0.38636363636363635,FALSE,domestic,123
-jeep,grand cherokee 4wd,3.7,2008,6,auto(l5),4,15,19,r,suv,11,0.39473684210526316,FALSE,domestic,124
-jeep,grand cherokee 4wd,4,1999,6,auto(l4),4,15,20,r,suv,20,0.375,FALSE,domestic,125
-jeep,grand cherokee 4wd,4.7,1999,8,auto(l4),4,14,17,r,suv,20,0.4117647058823529,FALSE,domestic,126
-jeep,grand cherokee 4wd,4.7,2008,8,auto(l5),4,9,12,e,suv,11,0.375,FALSE,domestic,127
-jeep,grand cherokee 4wd,4.7,2008,8,auto(l5),4,14,19,r,suv,11,0.3684210526315789,FALSE,domestic,128
-jeep,grand cherokee 4wd,5.7,2008,8,auto(l5),4,13,18,r,suv,11,0.3611111111111111,FALSE,domestic,129
-jeep,grand cherokee 4wd,6.1,2008,8,auto(l5),4,11,14,p,suv,11,0.39285714285714285,FALSE,domestic,130
-land rover,range rover,4,1999,8,auto(l4),4,11,15,p,suv,20,0.36666666666666664,FALSE,foreign,131
-land rover,range rover,4.2,2008,8,auto(s6),4,12,18,r,suv,11,0.3333333333333333,FALSE,foreign,132
-land rover,range rover,4.4,2008,8,auto(s6),4,12,18,r,suv,11,0.3333333333333333,FALSE,foreign,133
-land rover,range rover,4.6,1999,8,auto(l4),4,11,15,p,suv,20,0.36666666666666664,FALSE,foreign,134
-lincoln,navigator 2wd,5.4,1999,8,auto(l4),r,11,17,r,suv,20,0.3235294117647059,FALSE,domestic,135
-lincoln,navigator 2wd,5.4,1999,8,auto(l4),r,11,16,p,suv,20,0.34375,FALSE,domestic,136
-lincoln,navigator 2wd,5.4,2008,8,auto(l6),r,12,18,r,suv,11,0.3333333333333333,FALSE,domestic,137
-mercury,mountaineer 4wd,4,1999,6,auto(l5),4,14,17,r,suv,20,0.4117647058823529,FALSE,domestic,138
-mercury,mountaineer 4wd,4,2008,6,auto(l5),4,13,19,r,suv,11,0.34210526315789475,FALSE,domestic,139
-mercury,mountaineer 4wd,4.6,2008,8,auto(l6),4,13,19,r,suv,11,0.34210526315789475,FALSE,domestic,140
-mercury,mountaineer 4wd,5,1999,8,auto(l4),4,13,17,r,suv,20,0.38235294117647056,FALSE,domestic,141
-nissan,altima,2.4,1999,4,manual(m5),f,21,29,r,compact,20,0.3620689655172414,TRUE,foreign,142
-nissan,altima,2.4,1999,4,auto(l4),f,19,27,r,compact,20,0.35185185185185186,TRUE,foreign,143
-nissan,altima,2.5,2008,4,auto(av),f,23,31,r,midsize,11,0.3709677419354839,TRUE,foreign,144
-nissan,altima,2.5,2008,4,manual(m6),f,23,32,r,midsize,11,0.359375,TRUE,foreign,145
-nissan,altima,3.5,2008,6,manual(m6),f,19,27,p,midsize,11,0.35185185185185186,TRUE,foreign,146
-nissan,altima,3.5,2008,6,auto(av),f,19,26,p,midsize,11,0.36538461538461536,TRUE,foreign,147
-nissan,maxima,3,1999,6,auto(l4),f,18,26,r,midsize,20,0.34615384615384615,TRUE,foreign,148
-nissan,maxima,3,1999,6,manual(m5),f,19,25,r,midsize,20,0.38,TRUE,foreign,149
-nissan,maxima,3.5,2008,6,auto(av),f,19,25,p,midsize,11,0.38,TRUE,foreign,150
-nissan,pathfinder 4wd,3.3,1999,6,auto(l4),4,14,17,r,suv,20,0.4117647058823529,FALSE,foreign,151
-nissan,pathfinder 4wd,3.3,1999,6,manual(m5),4,15,17,r,suv,20,0.4411764705882353,FALSE,foreign,152
-nissan,pathfinder 4wd,4,2008,6,auto(l5),4,14,20,p,suv,11,0.35,FALSE,foreign,153
-nissan,pathfinder 4wd,5.6,2008,8,auto(s5),4,12,18,p,suv,11,0.3333333333333333,FALSE,foreign,154
-pontiac,grand prix,3.1,1999,6,auto(l4),f,18,26,r,midsize,20,0.34615384615384615,TRUE,domestic,155
-pontiac,grand prix,3.8,1999,6,auto(l4),f,16,26,p,midsize,20,0.3076923076923077,TRUE,domestic,156
-pontiac,grand prix,3.8,1999,6,auto(l4),f,17,27,r,midsize,20,0.3148148148148148,TRUE,domestic,157
-pontiac,grand prix,3.8,2008,6,auto(l4),f,18,28,r,midsize,11,0.32142857142857145,TRUE,domestic,158
-pontiac,grand prix,5.3,2008,8,auto(s4),f,16,25,p,midsize,11,0.32,TRUE,domestic,159
-subaru,forester awd,2.5,1999,4,manual(m5),4,18,25,r,suv,20,0.36,TRUE,foreign,160
-subaru,forester awd,2.5,1999,4,auto(l4),4,18,24,r,suv,20,0.375,TRUE,foreign,161
-subaru,forester awd,2.5,2008,4,manual(m5),4,20,27,r,suv,11,0.37037037037037035,TRUE,foreign,162
-subaru,forester awd,2.5,2008,4,manual(m5),4,19,25,p,suv,11,0.38,TRUE,foreign,163
-subaru,forester awd,2.5,2008,4,auto(l4),4,20,26,r,suv,11,0.38461538461538464,TRUE,foreign,164
-subaru,forester awd,2.5,2008,4,auto(l4),4,18,23,p,suv,11,0.391304347826087,FALSE,foreign,165
-subaru,impreza awd,2.2,1999,4,auto(l4),4,21,26,r,subcompact,20,0.40384615384615385,TRUE,foreign,166
-subaru,impreza awd,2.2,1999,4,manual(m5),4,19,26,r,subcompact,20,0.36538461538461536,TRUE,foreign,167
-subaru,impreza awd,2.5,1999,4,manual(m5),4,19,26,r,subcompact,20,0.36538461538461536,TRUE,foreign,168
-subaru,impreza awd,2.5,1999,4,auto(l4),4,19,26,r,subcompact,20,0.36538461538461536,TRUE,foreign,169
-subaru,impreza awd,2.5,2008,4,auto(s4),4,20,25,p,compact,11,0.4,TRUE,foreign,170
-subaru,impreza awd,2.5,2008,4,auto(s4),4,20,27,r,compact,11,0.37037037037037035,TRUE,foreign,171
-subaru,impreza awd,2.5,2008,4,manual(m5),4,19,25,p,compact,11,0.38,TRUE,foreign,172
-subaru,impreza awd,2.5,2008,4,manual(m5),4,20,27,r,compact,11,0.37037037037037035,TRUE,foreign,173
-toyota,4runner 4wd,2.7,1999,4,manual(m5),4,15,20,r,suv,20,0.375,FALSE,foreign,174
-toyota,4runner 4wd,2.7,1999,4,auto(l4),4,16,20,r,suv,20,0.4,FALSE,foreign,175
-toyota,4runner 4wd,3.4,1999,6,auto(l4),4,15,19,r,suv,20,0.39473684210526316,FALSE,foreign,176
-toyota,4runner 4wd,3.4,1999,6,manual(m5),4,15,17,r,suv,20,0.4411764705882353,FALSE,foreign,177
-toyota,4runner 4wd,4,2008,6,auto(l5),4,16,20,r,suv,11,0.4,FALSE,foreign,178
-toyota,4runner 4wd,4.7,2008,8,auto(l5),4,14,17,r,suv,11,0.4117647058823529,FALSE,foreign,179
-toyota,camry,2.2,1999,4,manual(m5),f,21,29,r,midsize,20,0.3620689655172414,TRUE,foreign,180
-toyota,camry,2.2,1999,4,auto(l4),f,21,27,r,midsize,20,0.3888888888888889,TRUE,foreign,181
-toyota,camry,2.4,2008,4,manual(m5),f,21,31,r,midsize,11,0.3387096774193548,TRUE,foreign,182
-toyota,camry,2.4,2008,4,auto(l5),f,21,31,r,midsize,11,0.3387096774193548,TRUE,foreign,183
-toyota,camry,3,1999,6,auto(l4),f,18,26,r,midsize,20,0.34615384615384615,TRUE,foreign,184
-toyota,camry,3,1999,6,manual(m5),f,18,26,r,midsize,20,0.34615384615384615,TRUE,foreign,185
-toyota,camry,3.5,2008,6,auto(s6),f,19,28,r,midsize,11,0.3392857142857143,TRUE,foreign,186
-toyota,camry solara,2.2,1999,4,auto(l4),f,21,27,r,compact,20,0.3888888888888889,TRUE,foreign,187
-toyota,camry solara,2.2,1999,4,manual(m5),f,21,29,r,compact,20,0.3620689655172414,TRUE,foreign,188
-toyota,camry solara,2.4,2008,4,manual(m5),f,21,31,r,compact,11,0.3387096774193548,TRUE,foreign,189
-toyota,camry solara,2.4,2008,4,auto(s5),f,22,31,r,compact,11,0.3548387096774194,TRUE,foreign,190
-toyota,camry solara,3,1999,6,auto(l4),f,18,26,r,compact,20,0.34615384615384615,TRUE,foreign,191
-toyota,camry solara,3,1999,6,manual(m5),f,18,26,r,compact,20,0.34615384615384615,TRUE,foreign,192
-toyota,camry solara,3.3,2008,6,auto(s5),f,18,27,r,compact,11,0.3333333333333333,TRUE,foreign,193
-toyota,corolla,1.8,1999,4,auto(l3),f,24,30,r,compact,20,0.4,TRUE,foreign,194
-toyota,corolla,1.8,1999,4,auto(l4),f,24,33,r,compact,20,0.36363636363636365,TRUE,foreign,195
-toyota,corolla,1.8,1999,4,manual(m5),f,26,35,r,compact,20,0.37142857142857144,TRUE,foreign,196
-toyota,corolla,1.8,2008,4,manual(m5),f,28,37,r,compact,11,0.3783783783783784,TRUE,foreign,197
-toyota,corolla,1.8,2008,4,auto(l4),f,26,35,r,compact,11,0.37142857142857144,TRUE,foreign,198
-toyota,land cruiser wagon 4wd,4.7,1999,8,auto(l4),4,11,15,r,suv,20,0.36666666666666664,FALSE,foreign,199
-toyota,land cruiser wagon 4wd,5.7,2008,8,auto(s6),4,13,18,r,suv,11,0.3611111111111111,FALSE,foreign,200
-toyota,toyota tacoma 4wd,2.7,1999,4,manual(m5),4,15,20,r,pickup,20,0.375,FALSE,foreign,201
-toyota,toyota tacoma 4wd,2.7,1999,4,auto(l4),4,16,20,r,pickup,20,0.4,FALSE,foreign,202
-toyota,toyota tacoma 4wd,2.7,2008,4,manual(m5),4,17,22,r,pickup,11,0.38636363636363635,FALSE,foreign,203
-toyota,toyota tacoma 4wd,3.4,1999,6,manual(m5),4,15,17,r,pickup,20,0.4411764705882353,FALSE,foreign,204
-toyota,toyota tacoma 4wd,3.4,1999,6,auto(l4),4,15,19,r,pickup,20,0.39473684210526316,FALSE,foreign,205
-toyota,toyota tacoma 4wd,4,2008,6,manual(m6),4,15,18,r,pickup,11,0.4166666666666667,FALSE,foreign,206
-toyota,toyota tacoma 4wd,4,2008,6,auto(l5),4,16,20,r,pickup,11,0.4,FALSE,foreign,207
-volkswagen,gti,2,1999,4,manual(m5),f,21,29,r,compact,20,0.3620689655172414,TRUE,foreign,208
-volkswagen,gti,2,1999,4,auto(l4),f,19,26,r,compact,20,0.36538461538461536,TRUE,foreign,209
-volkswagen,gti,2,2008,4,manual(m6),f,21,29,p,compact,11,0.3620689655172414,TRUE,foreign,210
-volkswagen,gti,2,2008,4,auto(s6),f,22,29,p,compact,11,0.3793103448275862,TRUE,foreign,211
-volkswagen,gti,2.8,1999,6,manual(m5),f,17,24,r,compact,20,0.3541666666666667,TRUE,foreign,212
-volkswagen,jetta,1.9,1999,4,manual(m5),f,33,44,d,compact,20,0.375,TRUE,foreign,213
-volkswagen,jetta,2,1999,4,manual(m5),f,21,29,r,compact,20,0.3620689655172414,TRUE,foreign,214
-volkswagen,jetta,2,1999,4,auto(l4),f,19,26,r,compact,20,0.36538461538461536,TRUE,foreign,215
-volkswagen,jetta,2,2008,4,auto(s6),f,22,29,p,compact,11,0.3793103448275862,TRUE,foreign,216
-volkswagen,jetta,2,2008,4,manual(m6),f,21,29,p,compact,11,0.3620689655172414,TRUE,foreign,217
-volkswagen,jetta,2.5,2008,5,auto(s6),f,21,29,r,compact,11,0.3620689655172414,TRUE,foreign,218
-volkswagen,jetta,2.5,2008,5,manual(m5),f,21,29,r,compact,11,0.3620689655172414,TRUE,foreign,219
-volkswagen,jetta,2.8,1999,6,auto(l4),f,16,23,r,compact,20,0.34782608695652173,FALSE,foreign,220
-volkswagen,jetta,2.8,1999,6,manual(m5),f,17,24,r,compact,20,0.3541666666666667,TRUE,foreign,221
-volkswagen,new beetle,1.9,1999,4,manual(m5),f,35,44,d,subcompact,20,0.3977272727272727,TRUE,foreign,222
-volkswagen,new beetle,1.9,1999,4,auto(l4),f,29,41,d,subcompact,20,0.35365853658536583,TRUE,foreign,223
-volkswagen,new beetle,2,1999,4,manual(m5),f,21,29,r,subcompact,20,0.3620689655172414,TRUE,foreign,224
-volkswagen,new beetle,2,1999,4,auto(l4),f,19,26,r,subcompact,20,0.36538461538461536,TRUE,foreign,225
-volkswagen,new beetle,2.5,2008,5,manual(m5),f,20,28,r,subcompact,11,0.35714285714285715,TRUE,foreign,226
-volkswagen,new beetle,2.5,2008,5,auto(s6),f,20,29,r,subcompact,11,0.3448275862068966,TRUE,foreign,227
-volkswagen,passat,1.8,1999,4,manual(m5),f,21,29,p,midsize,20,0.3620689655172414,TRUE,foreign,228
-volkswagen,passat,1.8,1999,4,auto(l5),f,18,29,p,midsize,20,0.3103448275862069,TRUE,foreign,229
-volkswagen,passat,2,2008,4,auto(s6),f,19,28,p,midsize,11,0.3392857142857143,TRUE,foreign,230
-volkswagen,passat,2,2008,4,manual(m6),f,21,29,p,midsize,11,0.3620689655172414,TRUE,foreign,231
-volkswagen,passat,2.8,1999,6,auto(l5),f,16,26,p,midsize,20,0.3076923076923077,TRUE,foreign,232
-volkswagen,passat,2.8,1999,6,manual(m5),f,18,26,p,midsize,20,0.34615384615384615,TRUE,foreign,233
-volkswagen,passat,3.6,2008,6,auto(s6),f,17,26,p,midsize,11,0.3269230769230769,TRUE,foreign,234
+audi,a4,1.8,1999,4,auto(l5),f,18,29,p,compact,23,0.3103448275862069,TRUE,foreign,1
+audi,a4,1.8,1999,4,manual(m5),f,21,29,p,compact,23,0.3620689655172414,TRUE,foreign,2
+audi,a4,2,2008,4,manual(m6),f,20,31,p,compact,14,0.3225806451612903,TRUE,foreign,3
+audi,a4,2,2008,4,auto(av),f,21,30,p,compact,14,0.35,TRUE,foreign,4
+audi,a4,2.8,1999,6,auto(l5),f,16,26,p,compact,23,0.3076923076923077,TRUE,foreign,5
+audi,a4,2.8,1999,6,manual(m5),f,18,26,p,compact,23,0.34615384615384615,TRUE,foreign,6
+audi,a4,3.1,2008,6,auto(av),f,18,27,p,compact,14,0.3333333333333333,TRUE,foreign,7
+audi,a4 quattro,1.8,1999,4,manual(m5),4,18,26,p,compact,23,0.34615384615384615,TRUE,foreign,8
+audi,a4 quattro,1.8,1999,4,auto(l5),4,16,25,p,compact,23,0.32,TRUE,foreign,9
+audi,a4 quattro,2,2008,4,manual(m6),4,20,28,p,compact,14,0.35714285714285715,TRUE,foreign,10
+audi,a4 quattro,2,2008,4,auto(s6),4,19,27,p,compact,14,0.35185185185185186,TRUE,foreign,11
+audi,a4 quattro,2.8,1999,6,auto(l5),4,15,25,p,compact,23,0.3,TRUE,foreign,12
+audi,a4 quattro,2.8,1999,6,manual(m5),4,17,25,p,compact,23,0.34,TRUE,foreign,13
+audi,a4 quattro,3.1,2008,6,auto(s6),4,17,25,p,compact,14,0.34,TRUE,foreign,14
+audi,a4 quattro,3.1,2008,6,manual(m6),4,15,25,p,compact,14,0.3,TRUE,foreign,15
+audi,a6 quattro,2.8,1999,6,auto(l5),4,15,24,p,midsize,23,0.3125,TRUE,foreign,16
+audi,a6 quattro,3.1,2008,6,auto(s6),4,17,25,p,midsize,14,0.34,TRUE,foreign,17
+audi,a6 quattro,4.2,2008,8,auto(s6),4,16,23,p,midsize,14,0.34782608695652173,FALSE,foreign,18
+chevrolet,c1500 suburban 2wd,5.3,2008,8,auto(l4),r,14,20,r,suv,14,0.35,FALSE,domestic,19
+chevrolet,c1500 suburban 2wd,5.3,2008,8,auto(l4),r,11,15,e,suv,14,0.36666666666666664,FALSE,domestic,20
+chevrolet,c1500 suburban 2wd,5.3,2008,8,auto(l4),r,14,20,r,suv,14,0.35,FALSE,domestic,21
+chevrolet,c1500 suburban 2wd,5.7,1999,8,auto(l4),r,13,17,r,suv,23,0.38235294117647056,FALSE,domestic,22
+chevrolet,c1500 suburban 2wd,6,2008,8,auto(l4),r,12,17,r,suv,14,0.35294117647058826,FALSE,domestic,23
+chevrolet,corvette,5.7,1999,8,manual(m6),r,16,26,p,2seater,23,0.3076923076923077,TRUE,domestic,24
+chevrolet,corvette,5.7,1999,8,auto(l4),r,15,23,p,2seater,23,0.32608695652173914,FALSE,domestic,25
+chevrolet,corvette,6.2,2008,8,manual(m6),r,16,26,p,2seater,14,0.3076923076923077,TRUE,domestic,26
+chevrolet,corvette,6.2,2008,8,auto(s6),r,15,25,p,2seater,14,0.3,TRUE,domestic,27
+chevrolet,corvette,7,2008,8,manual(m6),r,15,24,p,2seater,14,0.3125,TRUE,domestic,28
+chevrolet,k1500 tahoe 4wd,5.3,2008,8,auto(l4),4,14,19,r,suv,14,0.3684210526315789,FALSE,domestic,29
+chevrolet,k1500 tahoe 4wd,5.3,2008,8,auto(l4),4,11,14,e,suv,14,0.39285714285714285,FALSE,domestic,30
+chevrolet,k1500 tahoe 4wd,5.7,1999,8,auto(l4),4,11,15,r,suv,23,0.36666666666666664,FALSE,domestic,31
+chevrolet,k1500 tahoe 4wd,6.5,1999,8,auto(l4),4,14,17,d,suv,23,0.4117647058823529,FALSE,domestic,32
+chevrolet,malibu,2.4,1999,4,auto(l4),f,19,27,r,midsize,23,0.35185185185185186,TRUE,domestic,33
+chevrolet,malibu,2.4,2008,4,auto(l4),f,22,30,r,midsize,14,0.36666666666666664,TRUE,domestic,34
+chevrolet,malibu,3.1,1999,6,auto(l4),f,18,26,r,midsize,23,0.34615384615384615,TRUE,domestic,35
+chevrolet,malibu,3.5,2008,6,auto(l4),f,18,29,r,midsize,14,0.3103448275862069,TRUE,domestic,36
+chevrolet,malibu,3.6,2008,6,auto(s6),f,17,26,r,midsize,14,0.3269230769230769,TRUE,domestic,37
+dodge,caravan 2wd,2.4,1999,4,auto(l3),f,18,24,r,minivan,23,0.375,TRUE,domestic,38
+dodge,caravan 2wd,3,1999,6,auto(l4),f,17,24,r,minivan,23,0.3541666666666667,TRUE,domestic,39
+dodge,caravan 2wd,3.3,1999,6,auto(l4),f,16,22,r,minivan,23,0.36363636363636365,FALSE,domestic,40
+dodge,caravan 2wd,3.3,1999,6,auto(l4),f,16,22,r,minivan,23,0.36363636363636365,FALSE,domestic,41
+dodge,caravan 2wd,3.3,2008,6,auto(l4),f,17,24,r,minivan,14,0.3541666666666667,TRUE,domestic,42
+dodge,caravan 2wd,3.3,2008,6,auto(l4),f,17,24,r,minivan,14,0.3541666666666667,TRUE,domestic,43
+dodge,caravan 2wd,3.3,2008,6,auto(l4),f,11,17,e,minivan,14,0.3235294117647059,FALSE,domestic,44
+dodge,caravan 2wd,3.8,1999,6,auto(l4),f,15,22,r,minivan,23,0.3409090909090909,FALSE,domestic,45
+dodge,caravan 2wd,3.8,1999,6,auto(l4),f,15,21,r,minivan,23,0.35714285714285715,FALSE,domestic,46
+dodge,caravan 2wd,3.8,2008,6,auto(l6),f,16,23,r,minivan,14,0.34782608695652173,FALSE,domestic,47
+dodge,caravan 2wd,4,2008,6,auto(l6),f,16,23,r,minivan,14,0.34782608695652173,FALSE,domestic,48
+dodge,dakota pickup 4wd,3.7,2008,6,manual(m6),4,15,19,r,pickup,14,0.39473684210526316,FALSE,domestic,49
+dodge,dakota pickup 4wd,3.7,2008,6,auto(l4),4,14,18,r,pickup,14,0.3888888888888889,FALSE,domestic,50
+dodge,dakota pickup 4wd,3.9,1999,6,auto(l4),4,13,17,r,pickup,23,0.38235294117647056,FALSE,domestic,51
+dodge,dakota pickup 4wd,3.9,1999,6,manual(m5),4,14,17,r,pickup,23,0.4117647058823529,FALSE,domestic,52
+dodge,dakota pickup 4wd,4.7,2008,8,auto(l5),4,14,19,r,pickup,14,0.3684210526315789,FALSE,domestic,53
+dodge,dakota pickup 4wd,4.7,2008,8,auto(l5),4,14,19,r,pickup,14,0.3684210526315789,FALSE,domestic,54
+dodge,dakota pickup 4wd,4.7,2008,8,auto(l5),4,9,12,e,pickup,14,0.375,FALSE,domestic,55
+dodge,dakota pickup 4wd,5.2,1999,8,manual(m5),4,11,17,r,pickup,23,0.3235294117647059,FALSE,domestic,56
+dodge,dakota pickup 4wd,5.2,1999,8,auto(l4),4,11,15,r,pickup,23,0.36666666666666664,FALSE,domestic,57
+dodge,durango 4wd,3.9,1999,6,auto(l4),4,13,17,r,suv,23,0.38235294117647056,FALSE,domestic,58
+dodge,durango 4wd,4.7,2008,8,auto(l5),4,13,17,r,suv,14,0.38235294117647056,FALSE,domestic,59
+dodge,durango 4wd,4.7,2008,8,auto(l5),4,9,12,e,suv,14,0.375,FALSE,domestic,60
+dodge,durango 4wd,4.7,2008,8,auto(l5),4,13,17,r,suv,14,0.38235294117647056,FALSE,domestic,61
+dodge,durango 4wd,5.2,1999,8,auto(l4),4,11,16,r,suv,23,0.34375,FALSE,domestic,62
+dodge,durango 4wd,5.7,2008,8,auto(l5),4,13,18,r,suv,14,0.3611111111111111,FALSE,domestic,63
+dodge,durango 4wd,5.9,1999,8,auto(l4),4,11,15,r,suv,23,0.36666666666666664,FALSE,domestic,64
+dodge,ram 1500 pickup 4wd,4.7,2008,8,manual(m6),4,12,16,r,pickup,14,0.375,FALSE,domestic,65
+dodge,ram 1500 pickup 4wd,4.7,2008,8,auto(l5),4,9,12,e,pickup,14,0.375,FALSE,domestic,66
+dodge,ram 1500 pickup 4wd,4.7,2008,8,auto(l5),4,13,17,r,pickup,14,0.38235294117647056,FALSE,domestic,67
+dodge,ram 1500 pickup 4wd,4.7,2008,8,auto(l5),4,13,17,r,pickup,14,0.38235294117647056,FALSE,domestic,68
+dodge,ram 1500 pickup 4wd,4.7,2008,8,manual(m6),4,12,16,r,pickup,14,0.375,FALSE,domestic,69
+dodge,ram 1500 pickup 4wd,4.7,2008,8,manual(m6),4,9,12,e,pickup,14,0.375,FALSE,domestic,70
+dodge,ram 1500 pickup 4wd,5.2,1999,8,auto(l4),4,11,15,r,pickup,23,0.36666666666666664,FALSE,domestic,71
+dodge,ram 1500 pickup 4wd,5.2,1999,8,manual(m5),4,11,16,r,pickup,23,0.34375,FALSE,domestic,72
+dodge,ram 1500 pickup 4wd,5.7,2008,8,auto(l5),4,13,17,r,pickup,14,0.38235294117647056,FALSE,domestic,73
+dodge,ram 1500 pickup 4wd,5.9,1999,8,auto(l4),4,11,15,r,pickup,23,0.36666666666666664,FALSE,domestic,74
+ford,expedition 2wd,4.6,1999,8,auto(l4),r,11,17,r,suv,23,0.3235294117647059,FALSE,domestic,75
+ford,expedition 2wd,5.4,1999,8,auto(l4),r,11,17,r,suv,23,0.3235294117647059,FALSE,domestic,76
+ford,expedition 2wd,5.4,2008,8,auto(l6),r,12,18,r,suv,14,0.3333333333333333,FALSE,domestic,77
+ford,explorer 4wd,4,1999,6,auto(l5),4,14,17,r,suv,23,0.4117647058823529,FALSE,domestic,78
+ford,explorer 4wd,4,1999,6,manual(m5),4,15,19,r,suv,23,0.39473684210526316,FALSE,domestic,79
+ford,explorer 4wd,4,1999,6,auto(l5),4,14,17,r,suv,23,0.4117647058823529,FALSE,domestic,80
+ford,explorer 4wd,4,2008,6,auto(l5),4,13,19,r,suv,14,0.34210526315789475,FALSE,domestic,81
+ford,explorer 4wd,4.6,2008,8,auto(l6),4,13,19,r,suv,14,0.34210526315789475,FALSE,domestic,82
+ford,explorer 4wd,5,1999,8,auto(l4),4,13,17,r,suv,23,0.38235294117647056,FALSE,domestic,83
+ford,f150 pickup 4wd,4.2,1999,6,auto(l4),4,14,17,r,pickup,23,0.4117647058823529,FALSE,domestic,84
+ford,f150 pickup 4wd,4.2,1999,6,manual(m5),4,14,17,r,pickup,23,0.4117647058823529,FALSE,domestic,85
+ford,f150 pickup 4wd,4.6,1999,8,manual(m5),4,13,16,r,pickup,23,0.40625,FALSE,domestic,86
+ford,f150 pickup 4wd,4.6,1999,8,auto(l4),4,13,16,r,pickup,23,0.40625,FALSE,domestic,87
+ford,f150 pickup 4wd,4.6,2008,8,auto(l4),4,13,17,r,pickup,14,0.38235294117647056,FALSE,domestic,88
+ford,f150 pickup 4wd,5.4,1999,8,auto(l4),4,11,15,r,pickup,23,0.36666666666666664,FALSE,domestic,89
+ford,f150 pickup 4wd,5.4,2008,8,auto(l4),4,13,17,r,pickup,14,0.38235294117647056,FALSE,domestic,90
+ford,mustang,3.8,1999,6,manual(m5),r,18,26,r,subcompact,23,0.34615384615384615,TRUE,domestic,91
+ford,mustang,3.8,1999,6,auto(l4),r,18,25,r,subcompact,23,0.36,TRUE,domestic,92
+ford,mustang,4,2008,6,manual(m5),r,17,26,r,subcompact,14,0.3269230769230769,TRUE,domestic,93
+ford,mustang,4,2008,6,auto(l5),r,16,24,r,subcompact,14,0.3333333333333333,TRUE,domestic,94
+ford,mustang,4.6,1999,8,auto(l4),r,15,21,r,subcompact,23,0.35714285714285715,FALSE,domestic,95
+ford,mustang,4.6,1999,8,manual(m5),r,15,22,r,subcompact,23,0.3409090909090909,FALSE,domestic,96
+ford,mustang,4.6,2008,8,manual(m5),r,15,23,r,subcompact,14,0.32608695652173914,FALSE,domestic,97
+ford,mustang,4.6,2008,8,auto(l5),r,15,22,r,subcompact,14,0.3409090909090909,FALSE,domestic,98
+ford,mustang,5.4,2008,8,manual(m6),r,14,20,p,subcompact,14,0.35,FALSE,domestic,99
+honda,civic,1.6,1999,4,manual(m5),f,28,33,r,subcompact,23,0.42424242424242425,TRUE,foreign,100
+honda,civic,1.6,1999,4,auto(l4),f,24,32,r,subcompact,23,0.375,TRUE,foreign,101
+honda,civic,1.6,1999,4,manual(m5),f,25,32,r,subcompact,23,0.390625,TRUE,foreign,102
+honda,civic,1.6,1999,4,manual(m5),f,23,29,p,subcompact,23,0.39655172413793105,TRUE,foreign,103
+honda,civic,1.6,1999,4,auto(l4),f,24,32,r,subcompact,23,0.375,TRUE,foreign,104
+honda,civic,1.8,2008,4,manual(m5),f,26,34,r,subcompact,14,0.38235294117647056,TRUE,foreign,105
+honda,civic,1.8,2008,4,auto(l5),f,25,36,r,subcompact,14,0.3472222222222222,TRUE,foreign,106
+honda,civic,1.8,2008,4,auto(l5),f,24,36,c,subcompact,14,0.3333333333333333,TRUE,foreign,107
+honda,civic,2,2008,4,manual(m6),f,21,29,p,subcompact,14,0.3620689655172414,TRUE,foreign,108
+hyundai,sonata,2.4,1999,4,auto(l4),f,18,26,r,midsize,23,0.34615384615384615,TRUE,foreign,109
+hyundai,sonata,2.4,1999,4,manual(m5),f,18,27,r,midsize,23,0.3333333333333333,TRUE,foreign,110
+hyundai,sonata,2.4,2008,4,auto(l4),f,21,30,r,midsize,14,0.35,TRUE,foreign,111
+hyundai,sonata,2.4,2008,4,manual(m5),f,21,31,r,midsize,14,0.3387096774193548,TRUE,foreign,112
+hyundai,sonata,2.5,1999,6,auto(l4),f,18,26,r,midsize,23,0.34615384615384615,TRUE,foreign,113
+hyundai,sonata,2.5,1999,6,manual(m5),f,18,26,r,midsize,23,0.34615384615384615,TRUE,foreign,114
+hyundai,sonata,3.3,2008,6,auto(l5),f,19,28,r,midsize,14,0.3392857142857143,TRUE,foreign,115
+hyundai,tiburon,2,1999,4,auto(l4),f,19,26,r,subcompact,23,0.36538461538461536,TRUE,foreign,116
+hyundai,tiburon,2,1999,4,manual(m5),f,19,29,r,subcompact,23,0.3275862068965517,TRUE,foreign,117
+hyundai,tiburon,2,2008,4,manual(m5),f,20,28,r,subcompact,14,0.35714285714285715,TRUE,foreign,118
+hyundai,tiburon,2,2008,4,auto(l4),f,20,27,r,subcompact,14,0.37037037037037035,TRUE,foreign,119
+hyundai,tiburon,2.7,2008,6,auto(l4),f,17,24,r,subcompact,14,0.3541666666666667,TRUE,foreign,120
+hyundai,tiburon,2.7,2008,6,manual(m6),f,16,24,r,subcompact,14,0.3333333333333333,TRUE,foreign,121
+hyundai,tiburon,2.7,2008,6,manual(m5),f,17,24,r,subcompact,14,0.3541666666666667,TRUE,foreign,122
+jeep,grand cherokee 4wd,3,2008,6,auto(l5),4,17,22,d,suv,14,0.38636363636363635,FALSE,domestic,123
+jeep,grand cherokee 4wd,3.7,2008,6,auto(l5),4,15,19,r,suv,14,0.39473684210526316,FALSE,domestic,124
+jeep,grand cherokee 4wd,4,1999,6,auto(l4),4,15,20,r,suv,23,0.375,FALSE,domestic,125
+jeep,grand cherokee 4wd,4.7,1999,8,auto(l4),4,14,17,r,suv,23,0.4117647058823529,FALSE,domestic,126
+jeep,grand cherokee 4wd,4.7,2008,8,auto(l5),4,9,12,e,suv,14,0.375,FALSE,domestic,127
+jeep,grand cherokee 4wd,4.7,2008,8,auto(l5),4,14,19,r,suv,14,0.3684210526315789,FALSE,domestic,128
+jeep,grand cherokee 4wd,5.7,2008,8,auto(l5),4,13,18,r,suv,14,0.3611111111111111,FALSE,domestic,129
+jeep,grand cherokee 4wd,6.1,2008,8,auto(l5),4,11,14,p,suv,14,0.39285714285714285,FALSE,domestic,130
+land rover,range rover,4,1999,8,auto(l4),4,11,15,p,suv,23,0.36666666666666664,FALSE,foreign,131
+land rover,range rover,4.2,2008,8,auto(s6),4,12,18,r,suv,14,0.3333333333333333,FALSE,foreign,132
+land rover,range rover,4.4,2008,8,auto(s6),4,12,18,r,suv,14,0.3333333333333333,FALSE,foreign,133
+land rover,range rover,4.6,1999,8,auto(l4),4,11,15,p,suv,23,0.36666666666666664,FALSE,foreign,134
+lincoln,navigator 2wd,5.4,1999,8,auto(l4),r,11,17,r,suv,23,0.3235294117647059,FALSE,domestic,135
+lincoln,navigator 2wd,5.4,1999,8,auto(l4),r,11,16,p,suv,23,0.34375,FALSE,domestic,136
+lincoln,navigator 2wd,5.4,2008,8,auto(l6),r,12,18,r,suv,14,0.3333333333333333,FALSE,domestic,137
+mercury,mountaineer 4wd,4,1999,6,auto(l5),4,14,17,r,suv,23,0.4117647058823529,FALSE,domestic,138
+mercury,mountaineer 4wd,4,2008,6,auto(l5),4,13,19,r,suv,14,0.34210526315789475,FALSE,domestic,139
+mercury,mountaineer 4wd,4.6,2008,8,auto(l6),4,13,19,r,suv,14,0.34210526315789475,FALSE,domestic,140
+mercury,mountaineer 4wd,5,1999,8,auto(l4),4,13,17,r,suv,23,0.38235294117647056,FALSE,domestic,141
+nissan,altima,2.4,1999,4,manual(m5),f,21,29,r,compact,23,0.3620689655172414,TRUE,foreign,142
+nissan,altima,2.4,1999,4,auto(l4),f,19,27,r,compact,23,0.35185185185185186,TRUE,foreign,143
+nissan,altima,2.5,2008,4,auto(av),f,23,31,r,midsize,14,0.3709677419354839,TRUE,foreign,144
+nissan,altima,2.5,2008,4,manual(m6),f,23,32,r,midsize,14,0.359375,TRUE,foreign,145
+nissan,altima,3.5,2008,6,manual(m6),f,19,27,p,midsize,14,0.35185185185185186,TRUE,foreign,146
+nissan,altima,3.5,2008,6,auto(av),f,19,26,p,midsize,14,0.36538461538461536,TRUE,foreign,147
+nissan,maxima,3,1999,6,auto(l4),f,18,26,r,midsize,23,0.34615384615384615,TRUE,foreign,148
+nissan,maxima,3,1999,6,manual(m5),f,19,25,r,midsize,23,0.38,TRUE,foreign,149
+nissan,maxima,3.5,2008,6,auto(av),f,19,25,p,midsize,14,0.38,TRUE,foreign,150
+nissan,pathfinder 4wd,3.3,1999,6,auto(l4),4,14,17,r,suv,23,0.4117647058823529,FALSE,foreign,151
+nissan,pathfinder 4wd,3.3,1999,6,manual(m5),4,15,17,r,suv,23,0.4411764705882353,FALSE,foreign,152
+nissan,pathfinder 4wd,4,2008,6,auto(l5),4,14,20,p,suv,14,0.35,FALSE,foreign,153
+nissan,pathfinder 4wd,5.6,2008,8,auto(s5),4,12,18,p,suv,14,0.3333333333333333,FALSE,foreign,154
+pontiac,grand prix,3.1,1999,6,auto(l4),f,18,26,r,midsize,23,0.34615384615384615,TRUE,domestic,155
+pontiac,grand prix,3.8,1999,6,auto(l4),f,16,26,p,midsize,23,0.3076923076923077,TRUE,domestic,156
+pontiac,grand prix,3.8,1999,6,auto(l4),f,17,27,r,midsize,23,0.3148148148148148,TRUE,domestic,157
+pontiac,grand prix,3.8,2008,6,auto(l4),f,18,28,r,midsize,14,0.32142857142857145,TRUE,domestic,158
+pontiac,grand prix,5.3,2008,8,auto(s4),f,16,25,p,midsize,14,0.32,TRUE,domestic,159
+subaru,forester awd,2.5,1999,4,manual(m5),4,18,25,r,suv,23,0.36,TRUE,foreign,160
+subaru,forester awd,2.5,1999,4,auto(l4),4,18,24,r,suv,23,0.375,TRUE,foreign,161
+subaru,forester awd,2.5,2008,4,manual(m5),4,20,27,r,suv,14,0.37037037037037035,TRUE,foreign,162
+subaru,forester awd,2.5,2008,4,manual(m5),4,19,25,p,suv,14,0.38,TRUE,foreign,163
+subaru,forester awd,2.5,2008,4,auto(l4),4,20,26,r,suv,14,0.38461538461538464,TRUE,foreign,164
+subaru,forester awd,2.5,2008,4,auto(l4),4,18,23,p,suv,14,0.391304347826087,FALSE,foreign,165
+subaru,impreza awd,2.2,1999,4,auto(l4),4,21,26,r,subcompact,23,0.40384615384615385,TRUE,foreign,166
+subaru,impreza awd,2.2,1999,4,manual(m5),4,19,26,r,subcompact,23,0.36538461538461536,TRUE,foreign,167
+subaru,impreza awd,2.5,1999,4,manual(m5),4,19,26,r,subcompact,23,0.36538461538461536,TRUE,foreign,168
+subaru,impreza awd,2.5,1999,4,auto(l4),4,19,26,r,subcompact,23,0.36538461538461536,TRUE,foreign,169
+subaru,impreza awd,2.5,2008,4,auto(s4),4,20,25,p,compact,14,0.4,TRUE,foreign,170
+subaru,impreza awd,2.5,2008,4,auto(s4),4,20,27,r,compact,14,0.37037037037037035,TRUE,foreign,171
+subaru,impreza awd,2.5,2008,4,manual(m5),4,19,25,p,compact,14,0.38,TRUE,foreign,172
+subaru,impreza awd,2.5,2008,4,manual(m5),4,20,27,r,compact,14,0.37037037037037035,TRUE,foreign,173
+toyota,4runner 4wd,2.7,1999,4,manual(m5),4,15,20,r,suv,23,0.375,FALSE,foreign,174
+toyota,4runner 4wd,2.7,1999,4,auto(l4),4,16,20,r,suv,23,0.4,FALSE,foreign,175
+toyota,4runner 4wd,3.4,1999,6,auto(l4),4,15,19,r,suv,23,0.39473684210526316,FALSE,foreign,176
+toyota,4runner 4wd,3.4,1999,6,manual(m5),4,15,17,r,suv,23,0.4411764705882353,FALSE,foreign,177
+toyota,4runner 4wd,4,2008,6,auto(l5),4,16,20,r,suv,14,0.4,FALSE,foreign,178
+toyota,4runner 4wd,4.7,2008,8,auto(l5),4,14,17,r,suv,14,0.4117647058823529,FALSE,foreign,179
+toyota,camry,2.2,1999,4,manual(m5),f,21,29,r,midsize,23,0.3620689655172414,TRUE,foreign,180
+toyota,camry,2.2,1999,4,auto(l4),f,21,27,r,midsize,23,0.3888888888888889,TRUE,foreign,181
+toyota,camry,2.4,2008,4,manual(m5),f,21,31,r,midsize,14,0.3387096774193548,TRUE,foreign,182
+toyota,camry,2.4,2008,4,auto(l5),f,21,31,r,midsize,14,0.3387096774193548,TRUE,foreign,183
+toyota,camry,3,1999,6,auto(l4),f,18,26,r,midsize,23,0.34615384615384615,TRUE,foreign,184
+toyota,camry,3,1999,6,manual(m5),f,18,26,r,midsize,23,0.34615384615384615,TRUE,foreign,185
+toyota,camry,3.5,2008,6,auto(s6),f,19,28,r,midsize,14,0.3392857142857143,TRUE,foreign,186
+toyota,camry solara,2.2,1999,4,auto(l4),f,21,27,r,compact,23,0.3888888888888889,TRUE,foreign,187
+toyota,camry solara,2.2,1999,4,manual(m5),f,21,29,r,compact,23,0.3620689655172414,TRUE,foreign,188
+toyota,camry solara,2.4,2008,4,manual(m5),f,21,31,r,compact,14,0.3387096774193548,TRUE,foreign,189
+toyota,camry solara,2.4,2008,4,auto(s5),f,22,31,r,compact,14,0.3548387096774194,TRUE,foreign,190
+toyota,camry solara,3,1999,6,auto(l4),f,18,26,r,compact,23,0.34615384615384615,TRUE,foreign,191
+toyota,camry solara,3,1999,6,manual(m5),f,18,26,r,compact,23,0.34615384615384615,TRUE,foreign,192
+toyota,camry solara,3.3,2008,6,auto(s5),f,18,27,r,compact,14,0.3333333333333333,TRUE,foreign,193
+toyota,corolla,1.8,1999,4,auto(l3),f,24,30,r,compact,23,0.4,TRUE,foreign,194
+toyota,corolla,1.8,1999,4,auto(l4),f,24,33,r,compact,23,0.36363636363636365,TRUE,foreign,195
+toyota,corolla,1.8,1999,4,manual(m5),f,26,35,r,compact,23,0.37142857142857144,TRUE,foreign,196
+toyota,corolla,1.8,2008,4,manual(m5),f,28,37,r,compact,14,0.3783783783783784,TRUE,foreign,197
+toyota,corolla,1.8,2008,4,auto(l4),f,26,35,r,compact,14,0.37142857142857144,TRUE,foreign,198
+toyota,land cruiser wagon 4wd,4.7,1999,8,auto(l4),4,11,15,r,suv,23,0.36666666666666664,FALSE,foreign,199
+toyota,land cruiser wagon 4wd,5.7,2008,8,auto(s6),4,13,18,r,suv,14,0.3611111111111111,FALSE,foreign,200
+toyota,toyota tacoma 4wd,2.7,1999,4,manual(m5),4,15,20,r,pickup,23,0.375,FALSE,foreign,201
+toyota,toyota tacoma 4wd,2.7,1999,4,auto(l4),4,16,20,r,pickup,23,0.4,FALSE,foreign,202
+toyota,toyota tacoma 4wd,2.7,2008,4,manual(m5),4,17,22,r,pickup,14,0.38636363636363635,FALSE,foreign,203
+toyota,toyota tacoma 4wd,3.4,1999,6,manual(m5),4,15,17,r,pickup,23,0.4411764705882353,FALSE,foreign,204
+toyota,toyota tacoma 4wd,3.4,1999,6,auto(l4),4,15,19,r,pickup,23,0.39473684210526316,FALSE,foreign,205
+toyota,toyota tacoma 4wd,4,2008,6,manual(m6),4,15,18,r,pickup,14,0.4166666666666667,FALSE,foreign,206
+toyota,toyota tacoma 4wd,4,2008,6,auto(l5),4,16,20,r,pickup,14,0.4,FALSE,foreign,207
+volkswagen,gti,2,1999,4,manual(m5),f,21,29,r,compact,23,0.3620689655172414,TRUE,foreign,208
+volkswagen,gti,2,1999,4,auto(l4),f,19,26,r,compact,23,0.36538461538461536,TRUE,foreign,209
+volkswagen,gti,2,2008,4,manual(m6),f,21,29,p,compact,14,0.3620689655172414,TRUE,foreign,210
+volkswagen,gti,2,2008,4,auto(s6),f,22,29,p,compact,14,0.3793103448275862,TRUE,foreign,211
+volkswagen,gti,2.8,1999,6,manual(m5),f,17,24,r,compact,23,0.3541666666666667,TRUE,foreign,212
+volkswagen,jetta,1.9,1999,4,manual(m5),f,33,44,d,compact,23,0.375,TRUE,foreign,213
+volkswagen,jetta,2,1999,4,manual(m5),f,21,29,r,compact,23,0.3620689655172414,TRUE,foreign,214
+volkswagen,jetta,2,1999,4,auto(l4),f,19,26,r,compact,23,0.36538461538461536,TRUE,foreign,215
+volkswagen,jetta,2,2008,4,auto(s6),f,22,29,p,compact,14,0.3793103448275862,TRUE,foreign,216
+volkswagen,jetta,2,2008,4,manual(m6),f,21,29,p,compact,14,0.3620689655172414,TRUE,foreign,217
+volkswagen,jetta,2.5,2008,5,auto(s6),f,21,29,r,compact,14,0.3620689655172414,TRUE,foreign,218
+volkswagen,jetta,2.5,2008,5,manual(m5),f,21,29,r,compact,14,0.3620689655172414,TRUE,foreign,219
+volkswagen,jetta,2.8,1999,6,auto(l4),f,16,23,r,compact,23,0.34782608695652173,FALSE,foreign,220
+volkswagen,jetta,2.8,1999,6,manual(m5),f,17,24,r,compact,23,0.3541666666666667,TRUE,foreign,221
+volkswagen,new beetle,1.9,1999,4,manual(m5),f,35,44,d,subcompact,23,0.3977272727272727,TRUE,foreign,222
+volkswagen,new beetle,1.9,1999,4,auto(l4),f,29,41,d,subcompact,23,0.35365853658536583,TRUE,foreign,223
+volkswagen,new beetle,2,1999,4,manual(m5),f,21,29,r,subcompact,23,0.3620689655172414,TRUE,foreign,224
+volkswagen,new beetle,2,1999,4,auto(l4),f,19,26,r,subcompact,23,0.36538461538461536,TRUE,foreign,225
+volkswagen,new beetle,2.5,2008,5,manual(m5),f,20,28,r,subcompact,14,0.35714285714285715,TRUE,foreign,226
+volkswagen,new beetle,2.5,2008,5,auto(s6),f,20,29,r,subcompact,14,0.3448275862068966,TRUE,foreign,227
+volkswagen,passat,1.8,1999,4,manual(m5),f,21,29,p,midsize,23,0.3620689655172414,TRUE,foreign,228
+volkswagen,passat,1.8,1999,4,auto(l5),f,18,29,p,midsize,23,0.3103448275862069,TRUE,foreign,229
+volkswagen,passat,2,2008,4,auto(s6),f,19,28,p,midsize,14,0.3392857142857143,TRUE,foreign,230
+volkswagen,passat,2,2008,4,manual(m6),f,21,29,p,midsize,14,0.3620689655172414,TRUE,foreign,231
+volkswagen,passat,2.8,1999,6,auto(l5),f,16,26,p,midsize,23,0.3076923076923077,TRUE,foreign,232
+volkswagen,passat,2.8,1999,6,manual(m5),f,18,26,p,midsize,23,0.34615384615384615,TRUE,foreign,233
+volkswagen,passat,3.6,2008,6,auto(s6),f,17,26,p,midsize,14,0.3269230769230769,TRUE,foreign,234

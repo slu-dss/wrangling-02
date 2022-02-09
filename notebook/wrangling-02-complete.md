@@ -175,7 +175,7 @@ So let’s say we wanted to make a new variable in the `mpg` data frame
 that reflects the age of the cars instead of which year they were made.
 
 ``` r
-mpg_new <- mutate(mpg, age = 2021-year) 
+mpg_new <- mutate(mpg, age = 2022-year) 
 ```
 
 Another thing we might want to do is average the city and highway MPG
@@ -195,7 +195,7 @@ Remember we can also do both of these steps in one by using a
 ``` r
 mpg %>%
   mutate(
-    age = 2019-year,
+    age = 2022-year,
     avg = (cty/hwy)/2
   ) -> mpg_new
 ```
